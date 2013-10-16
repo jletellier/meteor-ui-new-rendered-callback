@@ -7,7 +7,7 @@ Here's an example of how to achieve the same behavior as the old
 the new system you have to be explicit about which modifications
 should fire callbacks.
 
-`old/ - An app running against Meteor 0.6.6.1 (with the old `rendered`
+`old/` - An app running against Meteor 0.6.6.1 (with the old `rendered`
 behavior)
 
 `new1/` - Resolution #1 (adding a new helper)
