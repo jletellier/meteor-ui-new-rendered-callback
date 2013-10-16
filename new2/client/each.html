@@ -1,0 +1,13 @@
+<body>
+  {{> list}}
+</body>
+
+<template name="list">
+  {{#each items}}
+    {{> justName}}
+  {{/each}}
+</template>
+
+<template name="justName">
+  {{name}}
+</template>
