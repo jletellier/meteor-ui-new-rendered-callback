@@ -10,7 +10,8 @@ should fire callbacks.
 `old/` - An app running against Meteor 0.6.6.1 (with the old `rendered`
 behavior)
 
-`new1/` - Resolution #1 (adding a new helper)
+`new1/` - Adaptation #1 of the app, running against the `template-engine-preview-0` release.
+Works by adding a new helper.
 
-`new2/` - Resolution #2 (wrapping the contents of `#each` in a
-template)
+`new2/` - Adaptation #2 of the app, running against the `template-engine-preview-0` release.
+Works by wrapping the contents of `#each` in a template)
