@@ -15,7 +15,9 @@ Template.list.rendered = function () {
 };
 
 Template.list.name = function () {
-  logRender();
+  Meteor.defer(function() {
+    logRender();
+  });
   return this.name;
 };
 
